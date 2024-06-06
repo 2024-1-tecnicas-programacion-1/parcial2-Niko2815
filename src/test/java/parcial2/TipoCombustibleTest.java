@@ -7,14 +7,15 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.Test;
 
 public class TipoCombustibleTest {
-    // TODO: Descomenta el siguiente código una vez hayas completado el enumerado TipoCombustible
-    /**
+    // TODO: Descomenta el siguiente código una vez hayas completado el enumerado
+    // TipoCombustible
+
     @Test
     public void testEnumValues() {
         TipoCombustible[] expectedValues = {
-            TipoCombustible.GASOLINA, 
-            TipoCombustible.ELECTRICO, 
-            TipoCombustible.HIBRIDO
+                TipoCombustible.GASOLINA,
+                TipoCombustible.ELECTRICO,
+                TipoCombustible.HIBRIDO
         };
         assertEquals(3, TipoCombustible.values().length);
         assertEquals(expectedValues[0], TipoCombustible.values()[0]);
@@ -49,5 +50,5 @@ public class TipoCombustibleTest {
         assertNotNull(TipoCombustible.ELECTRICO);
         assertNotNull(TipoCombustible.HIBRIDO);
     }
-    **/
+
 }
