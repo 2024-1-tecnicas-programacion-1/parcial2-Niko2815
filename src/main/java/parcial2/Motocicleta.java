@@ -7,8 +7,8 @@ public class Motocicleta extends Vehiculo {
         super(marca, modelo, año);
         this.tipoMotocicleta = tipoMotocicleta;
     }
-    public String mostrarMoto(){
-        return getMarca() + getModelo() + getAño() + getTipoMotocicleta();
+    public String imprimirInformacion(){
+        return getMarca()+ " " + getModelo()+ " " + getAño() + "," + " tipo de motocicleta: " + getTipoMotocicleta();
     }
     public TipoMotocicleta tipoMotocicleta(){
         return tipoMotocicleta;
